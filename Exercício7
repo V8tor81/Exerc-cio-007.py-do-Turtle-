@@ -1,0 +1,26 @@
+#exercicio007.py
+"""
+Exercicios:
+
+1) Mude a distancia entre as lentes dos óculos
+mudei
+2) Mude o tamanho das lentes
+mudei 
+"""
+
+import turtle
+
+turtle = turtle.Turtle()
+turtle.color('green')
+
+for _ in range(4):
+    turtle.left(90)
+    turtle.backward(50)#alterei o tamanho da lente
+
+turtle.backward(50)
+turtle.backward(60)#alterei o espaço do entre as lentes
+turtle.right(90)
+
+for _ in range(3):
+  turtle.forward(50)#alterei o tamanho da outra lente
+  turtle.left(90)
